@@ -1,0 +1,69 @@
+{
+  "sources": {
+    "omnibus-openstack-example": {
+      "path": "."
+    },
+    "apt": {
+      "locked_version": "2.3.8"
+    },
+    "mysql": {
+      "locked_version": "4.1.2"
+    },
+    "openstack-common": {
+      "locked_version": "9.0.2",
+      "git": "https://github.com/stackforge/cookbook-openstack-common.git",
+      "ref": "cc71ef941903bef4559217672fcd5918b511061b"
+    },
+    "openstack-omnibus": {
+      "locked_version": "8.0.0",
+      "git": "https://github.com/craigtracey/cookbook-openstack-omnibus.git",
+      "ref": "9b556dc3285fdd6670e6f5685228505b29a9e8e3"
+    },
+    "openstack-identity": {
+      "locked_version": "9.0.0",
+      "git": "https://github.com/stackforge/cookbook-openstack-identity.git",
+      "ref": "f122dbe803a4e73cc698ca59fd0d3d5d5b41d209"
+    },
+    "openstack-image": {
+      "locked_version": "9.0.0",
+      "git": "https://github.com/stackforge/cookbook-openstack-image.git",
+      "ref": "b5a87cc7ce869020b7959f741d2408d8f55c2583"
+    },
+    "database": {
+      "locked_version": "2.1.6"
+    },
+    "postgresql": {
+      "locked_version": "3.3.4"
+    },
+    "build-essential": {
+      "locked_version": "1.4.4"
+    },
+    "openssl": {
+      "locked_version": "1.1.0"
+    },
+    "aws": {
+      "locked_version": "2.1.1"
+    },
+    "xfs": {
+      "locked_version": "1.1.0"
+    },
+    "mysql-chef_gem": {
+      "locked_version": "0.0.2"
+    },
+    "homebrew": {
+      "locked_version": "1.5.4"
+    },
+    "windows": {
+      "locked_version": "1.30.2"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.6"
+    },
+    "yum": {
+      "locked_version": "3.2.0"
+    },
+    "yum-epel": {
+      "locked_version": "0.3.6"
+    }
+  }
+}
