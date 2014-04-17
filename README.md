@@ -1,4 +1,4 @@
-omnibus-openstack-example
+omnibus-openstack-reference
 =========================
 Want to know how to integrate omnibus-openstack, cookbook-openstack-omnibus, and the stackforge cookbooks? Here's an example.
 

@@ -1,6 +1,6 @@
 # encoding: UTF-8
 #
-# Cookbook Name:: omnibus-openstack-example
+# Cookbook Name:: omnibus-openstack-reference
 # Recipe:: default
 #
 # Copyright 2014, Craig Tracey <craigtracey@gmail.com>
@@ -18,7 +18,7 @@
 # limitations under the License.
 #
 
-include_recipe "omnibus-openstack-example::repo"
-include_recipe "omnibus-openstack-example::packages"
-include_recipe "omnibus-openstack-example::mysql-server"
-include_recipe "omnibus-openstack-example::databases"
+include_recipe "omnibus-openstack-reference::repo"
+include_recipe "omnibus-openstack-reference::packages"
+include_recipe "omnibus-openstack-reference::mysql-server"
+include_recipe "omnibus-openstack-reference::databases"

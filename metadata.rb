@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-name              'omnibus-openstack-example'
+name              'omnibus-openstack-reference'
 maintainer        'Craig Tracey'
 maintainer_email  'craigtracey@gmail.com'
 license           'Apache 2.0'

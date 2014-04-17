@@ -15,7 +15,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision "chef_solo" do |chef|
     chef.add_recipe "recipe[apt::default]"
-    chef.add_recipe "recipe[omnibus-openstack-example::default]"
+    chef.add_recipe "recipe[omnibus-openstack-reference::default]"
     chef.add_recipe "recipe[openstack-omnibus::default]"
     chef.add_recipe "recipe[openstack-identity::server]"
     chef.add_recipe "recipe[openstack-image::api]"
@@ -35,7 +35,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
           "enabled_services" => %w(identity image.glance-api)
         }
       },
-      "omnibus-openstack-example" => {
+      "omnibus-openstack-reference" => {
         "apt_repo_url" => "#{ENV['OMNIBUS_APT_REPO']}",
         "apt_key_server" => "#{ENV['OMNIBUS_APT_KEY_SERVER']}",
         "apt_key" => "#{ENV['OMNIBUS_APT_KEY']}"

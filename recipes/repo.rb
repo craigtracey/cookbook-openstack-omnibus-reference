@@ -1,6 +1,6 @@
 # encoding: UTF-8
 #
-# Cookbook Name:: omnibus-openstack-example
+# Cookbook Name:: omnibus-openstack-reference
 # Recipe:: repo
 #
 # Copyright 2014, Craig Tracey <craigtracey@gmail.com>
@@ -18,10 +18,10 @@
 # limitations under the License.
 #
 
-apt_repository 'omnibus-openstack-example' do
-  uri           node['omnibus-openstack-example']['apt_repo_url']
+apt_repository 'omnibus-openstack-reference' do
+  uri           node['omnibus-openstack-reference']['apt_repo_url']
   distribution  node['lsb']['codename']
   components    ['main']
-  keyserver     node['omnibus-openstack-example']['apt_key_server']
-  key           node['omnibus-openstack-example']['apt_key']
+  keyserver     node['omnibus-openstack-reference']['apt_key_server']
+  key           node['omnibus-openstack-reference']['apt_key']
 end

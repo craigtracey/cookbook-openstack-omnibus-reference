@@ -1,6 +1,6 @@
 # encoding: UTF-8
 #
-# Cookbook Name:: omnibus-openstack-example
+# Cookbook Name:: omnibus-openstack-reference
 # Recipe:: databases
 #
 # Copyright 2014, Craig Tracey <craigtracey@gmail.com>
