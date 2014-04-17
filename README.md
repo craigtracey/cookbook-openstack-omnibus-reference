@@ -5,7 +5,7 @@ Want to know how to integrate omnibus-openstack, cookbook-openstack-omnibus, and
 Usage
 -----
 ```
-ctracey@laptop:~/$ export OMNIBUS_APT_REPO="<your repo here>" && export OMNIBUS_APT_KEYSERVER="<your keyserver here>" && export OMNIBUS_APT_KEY="<your key here>" && vagrant up
+ctracey@laptop:~/$ export OMNIBUS_APT_REPO="<your repo here>" && export OMNIBUS_APT_KEY_SERVER="<your keyserver here>" && export OMNIBUS_APT_KEY="<your key here>" && vagrant up
 ```
 
 License and Author
