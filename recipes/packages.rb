@@ -28,4 +28,3 @@
     action :install
   end
 end
-

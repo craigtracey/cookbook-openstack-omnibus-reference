@@ -11,6 +11,6 @@ depends           'database'
 depends           'mysql'
 depends           'openstack-common'
 
-%w{ ubuntu }.each do |os|
+%w(ubuntu).each do |os|
   supports os
 end

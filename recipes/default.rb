@@ -18,7 +18,7 @@
 # limitations under the License.
 #
 
-include_recipe "omnibus-openstack-reference::repo"
-include_recipe "omnibus-openstack-reference::packages"
-include_recipe "omnibus-openstack-reference::mysql-server"
-include_recipe "omnibus-openstack-reference::databases"
+include_recipe 'omnibus-openstack-reference::repo'
+include_recipe 'omnibus-openstack-reference::packages'
+include_recipe 'omnibus-openstack-reference::mysql-server'
+include_recipe 'omnibus-openstack-reference::databases'
