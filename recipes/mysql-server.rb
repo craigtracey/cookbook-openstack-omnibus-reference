@@ -1,6 +1,6 @@
 # encoding: UTF-8
 #
-# Cookbook Name:: omnibus-openstack-reference
+# Cookbook Name:: openstack-omnibus-reference
 # Recipe:: mysql-server
 #
 # Copyright 2014, Craig Tracey <craigtracey@gmail.com>
@@ -22,7 +22,7 @@ class ::Chef::Recipe
   include ::Openstack
 end
 
-listen_address = address_for node['omnibus-openstack-reference']['mysql']['bind_interface']
+listen_address = address_for node['openstack-omnibus-reference']['mysql']['bind_interface']
 
 node.override['mysql']['bind_address'] = listen_address
 node.override['mysql']['tunable']['innodb_thread_concurrency'] = '0'

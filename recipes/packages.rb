@@ -1,6 +1,6 @@
 # encoding: UTF-8
 #
-# Cookbook Name:: omnibus-openstack-reference
+# Cookbook Name:: openstack-omnibus-reference
 # Recipe:: packages
 #
 # Copyright 2014, Craig Tracey <craigtracey@gmail.com>

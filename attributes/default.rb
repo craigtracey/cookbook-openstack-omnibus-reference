@@ -1,6 +1,6 @@
 # encoding: UTF-8
 #
-# Cookbook Name:: omnibus-openstack-reference
+# Cookbook Name:: openstack-omnibus-reference
 # Attributes:: default
 #
 # Copyright 2014, Craig Tracey <craigtracey@gmail.com>
@@ -18,8 +18,8 @@
 # limitations under the License.
 #
 
-default['omnibus-openstack-reference']['mysql']['bind_interface'] = 'eth0'
+default['openstack-omnibus-reference']['mysql']['bind_interface'] = 'eth0'
 
-default['omnibus-openstack-reference']['apt_repo_url'] = nil
-default['omnibus-openstack-reference']['apt_key_server'] = nil
-default['omnibus-openstack-reference']['apt_key'] = nil
+default['openstack-omnibus-reference']['apt_repo_url'] = nil
+default['openstack-omnibus-reference']['apt_key_server'] = nil
+default['openstack-omnibus-reference']['apt_key'] = nil
